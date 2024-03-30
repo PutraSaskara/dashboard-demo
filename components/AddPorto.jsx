@@ -25,7 +25,7 @@ const AddPorto = () => {
     formData.append("domain", domain);
     formData.append("github", github);
     formData.append("keywords", keywords);
-    formData.append("imageUrl", ); // Append the image file to the form data
+    formData.append("imageUrl", imageFile); // Append the image file to the form data
 
     try {
       await axios.post(
